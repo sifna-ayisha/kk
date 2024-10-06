@@ -1,0 +1,50 @@
+#pre-header {
+    background-color: black;
+    text-align: center;
+}
+#pre-header span {
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 0px;
+    display: inline-block;
+}
+
+nav {
+    background-color:grey; 
+    color: white !important;            
+    width: 95%;             
+    margin: 0 auto;         
+    padding: 10px 0;        
+}
+
+nav a {
+    color: white;            
+    text-decoration: none;  
+    padding: 10px 15px;     
+}
+
+nav a:hover {
+    color: #76A9FA;          /* Change link color on hover */
+}
+
+#mobile-menu ul li a {
+    color: white;            /* Ensure mobile menu links are white */
+}
+
+nav svg {
+    fill: white;             /* Ensure any SVG icons in the nav are white */
+}
+
+.md:hover:bg-transparent {
+    background-color: black;
+}
+.carousel {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
